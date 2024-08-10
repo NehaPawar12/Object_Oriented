@@ -16,7 +16,7 @@ class ABC
 int main()
 {
     if(true){
-       ABC obj;
+      static ABC obj;
     }
     cout<<"End of class"<<endl;
     return 0;
