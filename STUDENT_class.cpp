@@ -11,6 +11,7 @@ class Student{
 
     Student(string name, double cgpa){
         this->name = name;
+        //this->cgpa = cgpa;
         cgpaptr = new double;
         *cgpaptr = cgpa;
     }
