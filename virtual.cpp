@@ -22,10 +22,10 @@ public:
 
 int main()
 {
-    // Child c1;
-    // c1.getInfo();
+    Child c1;
+    c1.getInfo();
 
-    Parent p1;
-    p1.getInfo();
+    // Parent p1;
+    // p1.getInfo();
     return 0;
 }

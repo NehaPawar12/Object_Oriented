@@ -32,7 +32,7 @@ class Teacher{
             this->dept = orgob.dept;
             this->subject = orgob.subject;
             this->salary = orgob.salary;
-        }
+        }//Copy constructor.
 
         string name;
         string dept;
